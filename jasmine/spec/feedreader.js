@@ -83,7 +83,22 @@ $(function() {
             expect($body.hasClass('menu-hidden')).toBe(true);
         });
 
+        /* Ensures the menu hides when the feed list  is clicked.
+         */
+        it('hide menu when clicking feed-list a', function() {
+            var $feedListLink = $('.feed-list a'),
+                $body = $('body');
+
+            $body.removeClass('menu-hidden');
+            $feedListLink.trigger('click');
+            expect($body.hasClass('menu-hidden')).toBe(true);
+        });
     });
+
+    describe('The Feedlist', function() {
+
+    });
+
 
 
     describe('Initial Entries', function() {
