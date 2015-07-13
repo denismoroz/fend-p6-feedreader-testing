@@ -8,3 +8,4 @@ To run test launch index.html in browser.
 Page will run porject and show tests results for the project.
 
 
+Live version can be found at http://denismoroz.github.io/fend-p6-feedreader-testing/
