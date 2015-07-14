@@ -37,7 +37,7 @@ $(function() {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
             }
-         });
+        });
 
 
         /* Loops through each feed
